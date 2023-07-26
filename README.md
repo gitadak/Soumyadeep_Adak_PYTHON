@@ -1,2 +1,2 @@
-# PYTHON_STCET
+# PYTHON_programming
 repository for python assignments
