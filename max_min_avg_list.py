@@ -2,7 +2,10 @@ list=[]
 s=0
 while True:
     b=input("Enter number: ")
-    if b=='done':
+    if b=='done' and len(list)==0:
+        print("No items")
+        raise SystemExit
+    elif b=='done':
         break
     try:
         a=int(b)
