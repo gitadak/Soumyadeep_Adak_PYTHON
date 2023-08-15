@@ -12,6 +12,8 @@ print("Fibonacci numbers between %d and %d:"%(lb,ub))
 a=0
 b=1
 c=a+b
+if lb==a:
+    print (a)
 while True:
     if c>ub:
         break
