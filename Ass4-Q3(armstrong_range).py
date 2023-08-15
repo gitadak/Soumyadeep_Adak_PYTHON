@@ -6,6 +6,8 @@ except ValueError:
     raise SystemExit
 if lb>ub:
     raise Exception("Lower limit is always less than upper limit")
+if lb<=0 or ub<=0:
+    raise Exception("Input must be positive")
 print("Armstrong numbers between %d and %d:"%(lb,ub))
 for n in range(lb,ub+1):
     s=0
@@ -20,3 +22,4 @@ for n in range(lb,ub+1):
         m//=10
     if(n==s):
         print(n)
+
