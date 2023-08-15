@@ -1,0 +1,23 @@
+Python 3.11.4 (tags/v3.11.4:d2340ef, Jun  7 2023, 05:45:37) [MSC v.1934 64 bit (AMD64)] on win32
+Type "help", "copyright", "credits" or "license()" for more information.
+>>> import math
+>>> math.sin(20)
+0.9129452507276277
+>>> math.cos(20)
+0.40808206181339196
+>>> math.tan(20)
+2.237160944224742
+>>> math.asin(1)
+1.5707963267948966
+>>> math.acos(1)
+0.0
+>>> math.atan(1)
+0.7853981633974483
+>>> math.atan2(3,4)
+0.6435011087932844
+>>> math.sinh(20)
+242582597.70489514
+>>> math.cosh(20)
+242582597.70489514
+>>> math.tanh(20)
+1.0

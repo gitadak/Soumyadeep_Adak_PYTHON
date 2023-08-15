@@ -1,0 +1,13 @@
+Python 3.11.4 (tags/v3.11.4:d2340ef, Jun  7 2023, 05:45:37) [MSC v.1934 64 bit (AMD64)] on win32
+Type "help", "copyright", "credits" or "license()" for more information.
+>>> import math
+>>> math.e
+2.718281828459045
+>>> math.pi
+3.141592653589793
+>>> math.tau
+6.283185307179586
+>>> math.inf
+inf
+>>> math.nan
+nan
