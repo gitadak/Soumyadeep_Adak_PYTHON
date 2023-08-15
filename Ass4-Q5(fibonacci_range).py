@@ -4,13 +4,15 @@ try:
 except ValueError:
     print("Invalid input")
     raise SystemExit
+if lb<0 or ub<0:
+    raise Exception("Give non-negative input")
 if lb>ub:
     raise Exception("Lower limit is always less than upper limit")
 print("Fibonacci numbers between %d and %d:"%(lb,ub))
 a=0
 b=1
 c=a+b
-while (True):
+while True:
     if c>ub:
         break
     elif c>=lb:
