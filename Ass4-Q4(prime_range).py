@@ -5,6 +5,8 @@ try:
 except ValueError:
     print("Invalid input")
     raise SystemExit
+if lb<=0 or ub<=0:
+    raise Exception("Give positive input")
 if lb>ub:
     raise Exception("Lower limit is always less than upper limit")
 print("List of primes between %d and %d:"%(lb,ub))
