@@ -1,0 +1,14 @@
+Python 3.11.4 (tags/v3.11.4:d2340ef, Jun  7 2023, 05:45:37) [MSC v.1934 64 bit (AMD64)] on win32
+Type "help", "copyright", "credits" or "license()" for more information.
+>>> a='Soumyadeep*27-05-2004*24-08-2023'
+>>> s=a.split('*')
+>>> s
+['Soumyadeep', '27-05-2004', '24-08-2023']
+>>> born=s[1].split('-')
+>>> born
+['27', '05', '2004']
+>>> death=s[2].split('-')
+>>> death
+['24', '08', '2023']
+>>> print(s[0],'lived about %d years'%(int(death[2])-int(born[2])))
+Soumyadeep lived about 19 years
