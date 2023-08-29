@@ -1,7 +1,5 @@
 s=input("Enter the string: ")
 a=s.split()
 a.reverse()
-s=''
-for i in a:
-    s=s+i+' '
+s=' '.join(a)
 print("New string:",s)
