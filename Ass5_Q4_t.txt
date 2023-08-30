@@ -1,0 +1,16 @@
+Python 3.11.4 (tags/v3.11.4:d2340ef, Jun  7 2023, 05:45:37) [MSC v.1934 64 bit (AMD64)] on win32
+Type "help", "copyright", "credits" or "license()" for more information.
+>>> s='Hello! How are you?'
+>>> a=('How','are')
+>>> any(substr in s for substr in a)
+True
+>>> any(substr in s[:7] for substr in a)
+False
+>>> a=('Hello','!')
+>>> any(substr in s for substr in a)
+True
+>>> any(substr in s[:8] for substr in a)
+True
+>>> a=('are you','?')
+>>> any(substr in s[10:] for substr in a)
+True
