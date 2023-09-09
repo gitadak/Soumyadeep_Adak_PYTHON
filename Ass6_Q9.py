@@ -17,8 +17,9 @@ while True:
     elif ch==2:
         try:
             queue.reverse()
+            elm=queue.pop()
             print("Deleted element:")
-            print(queue.pop())
+            print(elm)
             queue.reverse()
             print("Queue:")
             if len(queue)==0:
