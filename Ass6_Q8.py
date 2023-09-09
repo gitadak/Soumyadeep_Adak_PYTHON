@@ -13,14 +13,21 @@ while True:
             print("Stack:")
             for i in range(len(stack)-1,-1,-1):
                 print(stack[i])
-    else:
+    elif ch==2:
         try:
+            elm=stack.pop()
             print("Popped element:")
-            print(stack.pop())
+            print(elm)
             print("Stack:")
-            for i in range(len(stack)-1,-1,-1):
-                print(stack[i])
+            if len(stack)==0:
+                print("Empty stack")
+            else:
+                for i in range(len(stack)-1,-1,-1):
+                    print(stack[i])
         except IndexError:
             print("Stack underflow")
+    else:
+        print("Invalid Input")
+
 
 
