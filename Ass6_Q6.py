@@ -1,21 +1,26 @@
 x=[]
 y=[]
-x1=[]
-y1=[]
-m=int(input("Enter the no. of elements in list1: "))
+m=int(input("Enter the no. of elements in lists: "))
 print("Enter the elements of list1:")
 for i in range(m):
     a=input()
     x.append(a)
-n=int(input("Enter the no. of elements in list1: "))
-print("Enter the elements of list1:")
-for i in range(n):
+print("Enter the elements of list2:")
+for i in range(m):
     a=input()
     y.append(a)
-print("List1:\n")
+print("List1:")
 print(x)
-print("List2:\n")
+print("List2:")
 print(y)
+x=list(set(x))
+y=list(set(y))
+count=0
 for i in x:
-    if i not in x1:
-        x1.append()
+    for j in y:
+        if i==j:
+            count+=1
+if count==m:
+    print("Containing same elements")
+else:
+    print("Not same")
