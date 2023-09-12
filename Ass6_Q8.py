@@ -1,5 +1,5 @@
 stack=[]
-n=int(input("Highest no. of elements in Stack: "))
+n=int(input("Total no. of elements in Stack: "))
 while True:
     ch=int(input("1. PUSH\n2. POP\n3. Exit\nEnter your choice: "))
     if ch==3:
