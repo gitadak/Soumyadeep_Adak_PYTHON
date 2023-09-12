@@ -1,6 +1,6 @@
 queue=[]
 rev=[]
-n=int(input("Highest no. of elements in Queue: "))
+n=int(input("Total no. of elements in Queue: "))
 while True:
     ch=int(input("1. Enqueue\n2. Dequeue\n3. Exit\nEnter your choice: "))
     if ch==3:
