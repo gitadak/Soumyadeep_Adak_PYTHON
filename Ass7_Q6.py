@@ -1,0 +1,6 @@
+t=(5,6,9,(7,'abc'),'ghn',78)
+print(t[::])
+print(t[0:7:2])
+print(t[7:5:-1])
+print(t[1:9])
+print(t[::-1])
