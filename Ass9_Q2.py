@@ -1,12 +1,6 @@
-def findSqrt(x):
-  if x < 2:
-    return x
-  y = x
-  z = (y + (x/y)) / 2
-  while abs(y - z) >= 0.00001: #upto 5 decimal digits
-    y = z
-    z = (y + (x/y)) / 2
-  return z
+#Square root of a number using function
+def SquareRoot(n):
+    return n**0.5
 
-n=int(input("Enter the number: "))
-print("Square root of %d is %.5f"%(n,findSqrt(n)))
+x=int(input("Enter the number: "))
+print("Square root of %d = %.5f"%(x,SquareRoot(x)))
